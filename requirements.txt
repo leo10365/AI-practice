@@ -1,0 +1,23 @@
+# Plant Pathology 2021 - PyTorch image classification
+# Recommended Python: 3.11
+# Install CUDA-enabled torch/torchvision FIRST from https://pytorch.org/get-started/locally/
+# Then: python -m pip install -r requirements.txt
+
+# Deep learning (preinstall a matching CUDA-enabled pair)
+torch
+torchvision
+
+# Data analysis / EDA
+numpy>=1.26,<3
+pandas>=2.2,<3
+matplotlib>=3.8,<4
+seaborn>=0.13,<0.15
+Pillow>=10,<13
+
+# Model evaluation and training utilities
+scikit-learn>=1.4,<2
+tqdm>=4.66,<5
+
+# VS Code notebooks
+jupyterlab>=4,<5
+ipykernel>=6,<8
